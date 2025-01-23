@@ -1,6 +1,6 @@
 # CC-week3-Expt3-PES1UG22CS602
 ## OPTIMIZATION REASONS:
-REASONS FOR CART
+## REASONS FOR CART
 Replaced eval with json.loads: Using eval to parse data is unsafe and can execute arbitrary code, posing a major security risk. Instead, json.loads ensures safe and structured parsing of JSON data.
 List comprehension for efficiency: The optimized code uses a single list comprehension to fetch and filter product details, reducing nested loops and making the code more concise and readable.
 Error handling in get_product: The optimized code ensures that invalid product IDs (those returning None from get_product) are filtered out, improving robustness and preventing potential runtime errors.
